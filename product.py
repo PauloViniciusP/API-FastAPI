@@ -1,5 +1,5 @@
-class Product:
+from pydantic import BaseModel
 
-    def __init__(self, name: str, price: float):
-        self.name = name
-        self.price = price
+class Product(BaseModel):
+    name: str
+    price: float
