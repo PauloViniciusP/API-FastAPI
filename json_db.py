@@ -16,3 +16,4 @@ class JsonDB(BaseModel):
         data['products'].append(product.model_dump())
         f = open(self.path, 'w')
         f.write(json.dumps(data))
+        f.close()
