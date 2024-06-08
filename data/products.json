@@ -1,5 +1,5 @@
 {
-    "Products":
+    "products":
     [
         {"name":"Notebook Air","price":2300},
         {"name":"Notebook Air Plux","price":2600},
