@@ -1,11 +1,1 @@
-{
-    "products":
-    [
-        {"name":"Notebook Air","price":2300},
-        {"name":"Notebook Air Plux","price":2600},
-        {"name":"Notebook Asus","price":3300},
-        {"name":"Macbook","price":15000},
-        {"name":"Notebook Alienw.","price":23000}
-        
-    ]
-}
+{"products": [{"name": "Notebook Air", "price": 2300}, {"name": "Notebook Air Plux", "price": 2600}, {"name": "Notebook Asus", "price": 3300}, {"name": "Macbook", "price": 15000}, {"name": "Notebook Alienw.", "price": 23000}, {"name": "Desktop 5th", "price": 5600.0}, {"name": "Desktop 6th", "price": 7800.0}]}
