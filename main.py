@@ -15,4 +15,4 @@ def get_products():
 @app.post('/products')
 def create_product(product: Product):
     productDB.insert(product)
-    return{'Products': products}
+    return{'Products': product}
