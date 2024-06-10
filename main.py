@@ -5,7 +5,7 @@ from product import Product
 
 app = FastAPI()
 
-productDB = JsonDB(path='.data/products.json')
+productDB = JsonDB(path='./data/products.json')
 
 @app.get('/products')
 def get_products():
